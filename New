@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>姓名 | 学术主页</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif; /* 使用衬线字体，更具学术气息 */
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px; /* 限制宽度，保证阅读舒适度 */
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        h1 { font-size: 24px; margin-bottom: 5px; }
+        h2 { font-size: 18px; color: #666; margin-top: 0; font-weight: normal; }
+        a { color: #000; text-decoration: underline; }
+        a:hover { color: #555; }
+        .section { margin-top: 40px; }
+        .pub-item { margin-bottom: 15px; }
+        footer { margin-top: 60px; font-size: 12px; color: #999; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>您的姓名</h1>
+        <h2>博士候选人 / 研究员 | 您的研究领域</h2>
+        <p>
+            <a href="mailto:your@email.com">Email</a> | 
+            <a href="#">CV</a> | 
+            <a href="#">Google Scholar</a>
+        </p>
+    </header>
+
+    <div class="section">
+        <p>欢迎来到我的主页。我是[您的大学/学院]的[职位]。我的研究兴趣包括：[领域1]、[领域2]和[领域3]。</p>
+        <p>目前，我正在专注于探讨 [您的核心研究，例如：传统家长式统治向AI家长式统治的转型]。</p>
+    </div>
+
+    <div class="section">
+        <h3>研究论文 (Publications)</h3>
+        <div class="pub-item">
+            <strong>专著题目</strong> (2024). <em>Palgrave Macmillan</em>. <a href="#">[链接]</a>
+        </div>
+        <div class="pub-item">
+            <strong>论文题目二</strong> (2023). <em>期刊名称</em>. <a href="#">[链接]</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 您的姓名
+    </footer>
+
+</body>
+</html>
